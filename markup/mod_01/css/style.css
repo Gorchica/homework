@@ -1,0 +1,56 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background: #ffffff;
+	color: #000000;
+	font-size: 3vw;
+	margin: auto;
+}
+
+.top {
+	display: inline-flex;
+	justify-content: center;
+	height: 6vw;
+	padding: 0vw 10vw 0vw 2vw;
+}
+
+.top div {
+}
+
+.top a {
+	text-decoration: none;
+	color: #000000;
+	font-size: 3vw;
+	padding-left: 1vw;
+}
+
+.top_search {
+	display: flex;
+	justify-content: flex-end;
+	padding-left: 20vw;
+}
+
+.phone {
+	background: #2f3943;
+	padding: 2vw 6vw 1vw 10vw;
+}
+
+.search {
+	display: flex;
+    width: 400px;
+    border: 1px solid #000;
+    min-height: 20px;
+    max-height: 30px;
+   }
+   input[type="search"] {
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    width: 274px;
+    vertical-align: middle;
+   }
+   input[type="submit"] {
+    width: 50%; /* Ширина кнопки */
+    height: 50%; /* Высота кнопки */
+    border: none; /* Убираем рамку */
+    background: url(img/1/search.png) no-repeat 50% 50%;
+}

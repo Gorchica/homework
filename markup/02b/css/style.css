@@ -1,0 +1,158 @@
+body {
+	font-family: "Montserrat";
+	background-color: #ebebeb;
+	margin: 0 auto; 
+	font-size: 20px; 
+	line-height: normal; 
+	color: #515151;
+}
+@font-face {
+  font-family: "Montserrat";
+	src: url('../font/montserrat-v10-latin-regular.eot'); /* IE9 Compat Modes */
+	src: local('Montserrat Regular'), local('Montserrat-Regular'),
+	url('../font/montserrat-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../font/montserrat-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../font/montserrat-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
+	url('../font/montserrat-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('../font/montserrat-v10-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+
+a {
+	text-decoration: none;
+}
+
+.menu_big {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	flex-grow: 1;
+	background-color: #373c3f;
+	padding: 15px;
+}
+
+.menu_small {
+	display: none;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	background-color: #373c3f;
+}
+
+.menu_link {
+	color: #ffffff;
+	font-size: 2vw;
+	padding-left: 20px;
+}
+
+.baner_1 {
+	text-align: center;
+	padding: 20% 0%; 
+	font-size: 8vw;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#19b4c6+0,12abbf+34,0992aa+66,078aa4+100 */
+	background: #19b4c6; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #19b4c6 0%, #12abbf 34%, #0992aa 66%, #078aa4 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #19b4c6 0%,#12abbf 34%,#0992aa 66%,#078aa4 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #19b4c6 0%,#12abbf 34%,#0992aa 66%,#078aa4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#19b4c6', endColorstr='#078aa4',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.baner_2 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	font-size: 3.5vw;
+}
+
+.right {
+	flex-grow: 2;
+	background-color: #27212c;
+	padding: 50px 0px 0px 40px;
+}
+
+.left {
+	flex-grow: 1;
+	background-color: #bc3183;
+	padding: 50px 50px;
+	text-align: center;
+}
+
+.title1a {
+	text-align: center;
+	color: #ffffff;
+	font-size: 5vw;
+	padding: 0% 14%;
+}
+
+.title1b {
+	font-size: 7vw;
+	color: #ffffff;
+}
+
+.title2 {
+	color: #ffffff;
+	font-size: 3vw;
+}
+
+.title3 {
+	color: #a8d6e0;
+	font-size: 3vw;
+	margin-right: -60px;
+	padding: 0px 270px 0px 0px;
+}
+
+.arrows {
+	padding: 0;
+	margin: 0;
+	font-size: 3.5vw;
+}
+
+.line3baner {
+	display: inline-flex;
+	flex-direction: row;
+	align-items: stretch;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-grow: 1;
+}
+
+.line3baner div {
+	flex-basis: 33%;
+}
+
+.img1 {
+	max-width: 100%;
+	vertical-align: top;
+}
+
+.textbox {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	padding-left: 40px;
+}
+
+.abz {
+	align-items: stretch;
+	margin: 0px 20px;
+}
+
+@media screen and (max-width: 640px) {
+	.menu_big {
+		display: none;
+	}
+
+	.menu_small {
+		display: flex;
+	}
+
+	.textbox {
+		display: inline-flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+	}
+
+	.line3baner {
+	display: flex;
+	flex-direction: column;
+	}
+}

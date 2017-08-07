@@ -1,0 +1,35 @@
+body {
+	font-style: sans-serif;
+}
+div {
+  width: 650px;
+  margin: 0 auto;
+}
+blockquote {
+	text-align: right;
+}
+h1 {
+	text-align: center;
+}
+em {
+	text-decoration: underline;
+}
+p {
+	text-align: justify;
+}
+img {
+	margin: 10px;
+}
+table  {
+	width: 100%;
+	border-collapse: collapse; 
+    table-layout: fixed;
+}
+td  {
+	padding: 5px;
+	border: 1px solid #000;
+}
+.imgCenter {
+	display: block;
+	margin: 0 auto;
+}
