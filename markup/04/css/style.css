@@ -10,20 +10,72 @@ header {
     height: 489px;    
 }
 
+
 .logo1 {
     float: left;
     padding: 60px 0px 0px 220px;
 }
 
-/*.nav {
-    display: block;
-    float: right;
+.logo3 {
+    position: absolute;
+    text-align: left;
+    color: #fff;
+    padding: 256px 0px 0px 655px;
 }
-*/
-#navbar ul{
+
+.logo3 h1 {
+    font-size: 65px;
+    margin: 0;
+}
+
+.logo3 h2 {
+    font-size: 45px;
+    margin: 0;
+}
+
+.button {
+    display:contents;
+    font-size: 23px;
+    border: 2px solid;
+    border-color: #181e1b;
+    background-color: #2a6f4f;
+    text-align: left;
+    padding: 9px 23px;
+    margin: 20px 202px 0px 0px;
+}
+
+.cofe {
+    position: absolute;
+    display: contents;
+    padding: 198px 0px 0px 249px;
+}
+
+.tab {
+/*    max-width: 1024px;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+    margin: 93px 128px 53px 128px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 27px;
+}
+
+/*------------------------------------*\
+    НАВИГАЦИЯ
+\*------------------------------------*/
+      #navbar ul{
         display: none;
+        background-color: #f90;
         position: absolute;
-        background-color: #666;
         top: 100%;
       }
       #navbar li:hover ul { display: block; }
@@ -54,53 +106,3 @@ header {
       #navbar ul li { float: none; }
       #navbar li:hover { background-color: #f90; }
       #navbar ul li:hover { background-color: #666; }
-
-.logo3 {
-    position: absolute;
-    text-align: left;
-    color: #fff;
-    padding: 256px 655px;
-}
-
-.logo3 h1 {
-    font-size: 65px;
-    margin: 0;
-}
-
-.logo3 h2 {
-    font-size: 45px;
-    margin: 0;
-}
-
-.button {
-    display:contents;
-    font-size: 23px;
-    border: 2px solid;
-    border-color: #181e1b;
-    text-align: left;
-    padding: 9px 23px;
-    margin: 38px 202px 0px 0px;
-}
-
-.cofe {
-    position: absolute;
-    display: contents;
-    padding: 198px 249px;
-}
-
-.tab {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    flex-grow: 1;
-    margin: 93px 0px 53px 0px;
-}
-
-.col {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 27px;
-}
