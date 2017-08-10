@@ -50,8 +50,12 @@ header {
     padding: 198px 0px 0px 249px;
 }
 
+nav {
+    display: inline-table;
+    float: right;
+}
+
 .tab {
-/*    max-width: 1024px;*/
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -69,40 +73,80 @@ header {
     font-size: 27px;
 }
 
-/*------------------------------------*\
-    НАВИГАЦИЯ
-\*------------------------------------*/
-      #navbar ul{
-        display: none;
-        background-color: #f90;
-        position: absolute;
-        top: 100%;
-      }
-      #navbar li:hover ul { display: block; }
-      #navbar, #navbar ul{
-        margin: 0;
-        padding: 0;
-        list-style-type: none;
-      }
-      #navbar {
-        height: 30px;
-        background-color: #666;
-        padding-left: 25px;
-        min-width: 470px;
-      }
-      #navbar li {
-        float: left;
-        position: relative;
-        height: 100%;
-      }
-      #navbar li a {
-        display: block;
-        padding: 6px;
-        width: 100px;
-        color: #fff;
-        text-decoration: none;
-        text-align: center;
-      }
-      #navbar ul li { float: none; }
-      #navbar li:hover { background-color: #f90; }
-      #navbar ul li:hover { background-color: #666; }
+.bro1 {
+    display: block;
+    float: left;
+    padding: 0px 50px 0px 128px;
+}
+
+.bro2 {
+    display: block;
+    size: 32px;
+    color: #4f4f4f;
+}
+
+.form {
+    display: inline-flex;
+    padding-left: 128px;
+    flex-basis: 470px;
+}
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 110px;
+    width: 470px;
+    background-color: #e67624;
+    border-radius: 5px;
+}
+
+.form2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 110px;
+    width: 470px;
+    background-color: #01d4f3;
+    border-radius: 5px;
+}
+
+.form3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.formD {
+    display: flex;
+    flex-basis: 68px;
+}
+
+
+.input1 {
+    height: 28px;
+    width: 155px;
+    margin: 0;
+    padding: 0;
+}
+
+.input2 {
+    height: 28px;
+    width: 265px;
+    margin: 0;
+    padding: 0;
+}
+
+.button1 {
+    height: 30px;
+    width: 95px;
+}
+
+.button2 {
+    height: 30;
+    width: 112;
+}
